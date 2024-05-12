@@ -1,0 +1,41 @@
+.box{
+    background: #ff1395;
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: #fff120;
+    width: 100px;
+    height: 100px;
+}
+
+.box2{
+    background-color: #ff0000;
+    width: 100px;
+    height: 100px;
+}
+
+/*
+...BLOCK
+...VEM COMO PADRÃO: div, section, p, h1, h2, ul, li, article....
+
+...-Ocupa 100% da largura do elemento pai.
+...-Sempre ocupa toda a sua linha.
+...-Altura definda de acordo com o conteúdo.
+...-Podemos definir valores de margin.
+
+...INLINE
+...Vem como padrão: a, span, b, i ....
+
+...-Elemento em linha
+...-Não permite alterar height e width
+...-Não podemos definir valores de margin top e bottom.
+...-Ganha comportamen to de uma palavra.
+
+...INLINE-BLOCK
+
+...-Elementos em linha, porem com características do display block
+...-Altura e largura podem se alteradas.
+
+*/
