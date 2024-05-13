@@ -1,0 +1,61 @@
+/* PSEUDO ELEMTENTOS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder {
+    color: brown;
+}
+
+p {
+    color: brown;
+}
+
+p::first-letter{
+    color: blue;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a::after {
+    content: " < ";
+}
+
+a::before {
+    content: " > ";
+}
+
+/*pseudo classes
+
+
+:active > quando o elemento esta ativo, ou seja está sendo precionado
+:visited > seleciona o link que foi visitado
+:hover > quando o mouse passa em cima do elemento
+:checker > usado em radio / checkbox / select
+:disabled > elemento esta desabilitado / button / input
+:enabled > elemento esta habilitado
+:focus > e apçicado quando um elemento recebe foco, o que pode ocorrer quando o usuario seleciona o elemento
+:read-only > seleciona input ou textarea que são apenas leitura
+:empty > elemento que não tem filho
+
+:first-child > primeiro filho / ex: primeiro li de uma lu / primeiro span de uma div
+:first-of-type > primeiro elemento de seu tipo entre os filhos de seu elemento pai.
+:last-child > ultimo filho
+:last-of-type > ultimo elemento de seu tipo entre os filhos de seu elemento pai
+:not() > estiliza os elementos, exeto oque esta dentro do ()
+:nth-child() > seleciona o elemento vaseado na sua posição. ex: :nth-child(3)
+:nth-last-child() > seleciona o elemento baseado na posição, contando de tras para frente.
+
+*/
