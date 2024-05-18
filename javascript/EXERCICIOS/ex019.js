@@ -1,0 +1,1 @@
+/* faça um programa onde leia um numero e diga se ele é: impar, par e um numero primo e impar é par e divisivel por 5 */
