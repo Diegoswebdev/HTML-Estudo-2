@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+    
+}
+
+main.conteiner {
+    background-image: linear-gradient(45deg, #181717, red);
+    height: 100vh;
+   
+    color: white;
+    
+    
+    
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;   
+
+}
+
+
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+    padding: 5px;
+}
+
+div.calculadora {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 15px;    
+    padding: 20px;
+}
+
+div > p{
+    color: rgb(10, 10, 10);
+    width: 222px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    font-size: 25px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.btn {
+    background-color: rgba(48, 36, 36, 0.822);
+    font-size: 1.3em;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    cursor: pointer;
+    
+    
+}
+
+.btn:hover{
+    background-color: orange;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+#igual {
+    height: 106px;
+}
+
+#zero {
+    width: 106px;
+}
